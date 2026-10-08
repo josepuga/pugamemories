@@ -3,6 +3,7 @@
 ## Interface: 120100, 50504, 11509, 20506, 16001
 ## Title: PugaMemories
 ## Version: 1.1.0
+## Author: José Puga
 ## Dependencies: PugaLib
 ## IconTexture: 134329
 
