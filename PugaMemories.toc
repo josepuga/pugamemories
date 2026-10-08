@@ -1,0 +1,38 @@
+## TAG_ORDER: wow wow_classic wow_classic_era wow_anniversary wow_classic_beta
+# Extract WoW version with: /dump select(4, GetBuildInfo())
+## Interface: 120100, 50504, 11509, 20506, 16001
+## Title: PugaMemories
+## Version: 1.0.0
+## Dependencies: PugaLib
+## IconTexture: 134329
+
+## Notes: Remember the players you meet and the moments you shared, good or bad.
+## Notes-esES: Recuerda los jugadores que conociste y los momentos compartidos, buenos o malos.
+## Notes-esMX: Recuerda los jugadores que conociste y los momentos compartidos, buenos o malos.
+## Notes-ptBR: Lembra-te dos jogadores que conheces e dos momentos que partilharam, bons ou maus.
+## Notes-deDE: Erinnere dich an die Spieler, denen du begegnet bist, und an eure gemeinsamen Erlebnisse – ob gut oder schlecht.
+## Notes-frFR: Souvenez-vous des joueurs que vous avez rencontrés et des moments partagés, bons ou mauvais.
+
+## Category: Other
+## Category-deDE: Anderes
+## Category-esES: Otros
+## Category-esMX: Otros
+## Category-frFR: Autre
+## Category-itIT: Altro
+## Category-koKR: 기타
+## Category-ptBR: Outro
+## Category-ruRU: Другое
+## Category-zhCN: 其它
+## Category-zhTW: 其他
+
+
+## SavedVariables: PugaMemoriesDB
+
+Constants.lua
+Locale.lua
+Common.lua
+Core.lua
+Record.lua
+ContextMenu.lua
+Chat.lua
+Portrait.lua
