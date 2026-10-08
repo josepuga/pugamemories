@@ -2,7 +2,7 @@
 # Extract WoW version with: /dump select(4, GetBuildInfo())
 ## Interface: 120100, 50504, 11509, 20506, 16001
 ## Title: PugaMemories
-## Version: 1.0.0
+## Version: 1.1.0
 ## Dependencies: PugaLib
 ## IconTexture: 134329
 

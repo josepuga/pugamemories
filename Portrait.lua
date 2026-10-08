@@ -274,6 +274,13 @@ local function UpdateGroup()
     end
 end
 
+--
+-- Refresh all memory indicators.
+--
+function NS.RefreshPortraits()
+    UpdateTarget()
+    UpdateGroup()
+end
 
 --
 -- Events.

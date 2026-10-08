@@ -266,6 +266,9 @@ SaveButton:SetScript("OnClick", function()
     PugaMemoriesDB[Target.GUID] =
         Record
 
+    -- Refresh portrait indicators.
+    NS.RefreshPortraits()
+
     --
     -- Close window.
     --
