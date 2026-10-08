@@ -34,4 +34,6 @@ Souvenez-vous des joueurs que vous rencontrez au fil de vos aventures dans World
 PugaMemories vous permet de conserver des notes personnelles sur les autres joueurs, afin de reconnaître des visages familiers, de vous souvenir de rencontres mémorables et d'éviter de revivre de mauvaises expériences. Qu'il s'agisse d'un soigneur serviable, d'un tank fiable ou de quelqu'un avec qui vous préféreriez ne plus jouer en groupe, chaque rencontre peut devenir un souvenir qui mérite d'être conservé.
 
 
+![How to use part 1](doc/PugaMemories-doc1.png)
 
+![How to use part 2](doc/PugaMemories-doc2.png)
