@@ -77,10 +77,10 @@ Comment:
 
         REASONS_GOOD = {
             "",
+            "Buen Grupo",
             "Buen Heal",
             "Buen Tank",
             "Buen DPS",
-            "Buen Grupo",
         },
         GOOD = "Buena",
         BAD = "Mala",

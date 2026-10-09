@@ -1,11 +1,17 @@
-## TAG_ORDER: wow wow_classic wow_classic_era wow_anniversary wow_classic_beta
-# Extract WoW version with: /dump select(4, GetBuildInfo())
-## Interface: 120100, 50504, 11509, 20506, 16001
 ## Title: PugaMemories
-## Version: 1.1.0
+## Version: 1.1.1
 ## Author: José Puga
+# CurseForge: https://www.curseforge.com/wow/addons/pugamemories
+# GitHub: https://github.com/josepuga/pugamemories
+
 ## Dependencies: PugaLib
 ## IconTexture: 134329
+## X-Curse-Project-ID: 1733680
+## X-License: MIT
+
+## TAG_ORDER: wow wow_classic wow_classic_era wow_anniversary wow_classic_beta
+## Interface: 120100, 50504, 11509, 20506, 16001
+# Extract WoW version with: /dump select(4, GetBuildInfo())
 
 ## Notes: Remember the players you meet and the moments you shared, good or bad.
 ## Notes-esES: Recuerda los jugadores que conociste y los momentos compartidos, buenos o malos.

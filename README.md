@@ -1,39 +1,102 @@
-# PugaMemories
+# PugaMemories 
 A World of Warcraft Addon
 
-## ENGLISH:
+## ENGLISH
 
-Remember the players you meet throughout your adventures in World of Warcraft and the experiences you shared, both good and bad.
+PugaMemories is a World of Warcraft addon that lets you save personal notes about other players, marking your experiences with them as positive (green) or negative (red).
 
-PugaMemories lets you keep personal notes about other players, helping you recognize familiar faces, remember memorable encounters, and avoid repeating unpleasant experiences. Whether it's a helpful healer, a reliable tank, or someone you'd rather not group with again, every encounter can become a memory worth keeping.
+Right-click a player's portrait and select "Create Memory..." to save a memory. You can choose a reason and add an optional comment.
 
-## ESPAÑOL:
+Each memory automatically records information about both characters, including their names, races, classes, levels, location, and the date and time of the encounter.
 
-Recuerda a los jugadores que conoces durante tus aventuras en World of Warcraft y las experiencias que compartiste con ellos, tanto buenas como malas.
+When you meet that player again:
 
-PugaMemories te permite guardar notas personales sobre otros jugadores, ayudándote a reconocer caras conocidas, recordar encuentros memorables y evitar repetir experiencias desagradables. Ya sea un sanador que te ayudó, un tanque de confianza o alguien con quien preferirías no volver a formar grupo, cada encuentro puede convertirse en un recuerdo que merece la pena conservar.
+- A green or red icon appears on their portrait, including party and raid frames.
+- Hover over the icon on the portrait to see the saved memory's details in a tooltip.
+- The same icon appears next to their messages in chat.
+- Click the icon in chat to view the saved memory's details.
 
-## PORTUGUÊS:
-
-Recorda os jogadores que conheces ao longo das tuas aventuras em World of Warcraft e as experiências que partilhaste com eles, tanto boas como más.
-
-O PugaMemories permite-te guardar notas pessoais sobre outros jogadores, ajudando-te a reconhecer caras familiares, recordar encontros memoráveis e evitar repetir experiências desagradáveis. Seja um curandeiro prestável, um tanque de confiança ou alguém com quem preferias não voltar a formar grupo, cada encontro pode tornar-se uma memória que vale a pena guardar.
-
-Souvenez-vous des joueurs que vous rencontrez au fil de vos aventures dans World of Warcraft et des expériences que vous avez partagées avec eux, bonnes ou mauvaises.
-
-## DEUTSCH:
-
-Erinnere dich an die Spieler, denen du auf deinen Abenteuern in World of Warcraft begegnest, und an die gemeinsamen Erlebnisse – ob gut oder schlecht.
-
-Mit PugaMemories kannst du persönliche Notizen über andere Spieler speichern. So erkennst du bekannte Gesichter wieder, erinnerst dich an besondere Begegnungen und vermeidest unangenehme Erfahrungen. Ob ein hilfsbereiter Heiler, ein zuverlässiger Tank oder jemand, mit dem du lieber nicht noch einmal in einer Gruppe spielen möchtest – jede Begegnung kann zu einer Erinnerung werden, die es wert ist, festgehalten zu werden.
-
-## FRANÇAIS:
-
-Souvenez-vous des joueurs que vous rencontrez au fil de vos aventures dans World of Warcraft et des expériences que vous avez partagées avec eux, bonnes ou mauvaises.
-
-PugaMemories vous permet de conserver des notes personnelles sur les autres joueurs, afin de reconnaître des visages familiers, de vous souvenir de rencontres mémorables et d'éviter de revivre de mauvaises expériences. Qu'il s'agisse d'un soigneur serviable, d'un tank fiable ou de quelqu'un avec qui vous préféreriez ne plus jouer en groupe, chaque rencontre peut devenir un souvenir qui mérite d'être conservé.
+All memories are stored locally and are for your personal use.
 
 
-![How to use part 1](doc/PugaMemories-doc1.png)
+--------------------------------------------------
 
-![How to use part 2](doc/PugaMemories-doc2.png)
+## ESPAÑOL
+
+PugaMemories es un addon para World of Warcraft que permite guardar notas personales sobre otros jugadores, clasificando las experiencias con ellos como positivas (verde) o negativas (rojo).
+
+Haz clic derecho sobre el retrato de un jugador y selecciona "Crear Recuerdo..." para guardar un recuerdo. Puedes seleccionar un motivo y añadir un comentario opcional.
+
+Cada recuerdo registra automáticamente información sobre ambos personajes, incluyendo sus nombres, razas, clases, niveles, ubicación y la fecha y hora del encuentro.
+
+Cuando vuelvas a encontrarte con ese jugador:
+
+- Aparecerá un icono verde o rojo en su retrato, incluidos los marcos de grupo y banda.
+- Pasa el ratón sobre el icono del retrato para consultar los detalles del recuerdo mediante un tooltip.
+- El mismo icono aparecerá junto a sus mensajes en el chat.
+- Haz clic en el icono del chat para consultar los detalles del recuerdo guardado.
+
+Todos los recuerdos se almacenan localmente y son exclusivamente para uso personal.
+
+
+--------------------------------------------------
+
+## PORTUGUÊS
+
+PugaMemories é um addon para World of Warcraft que permite guardar notas pessoais sobre outros jogadores, classificando as experiências com eles como positivas (verde) ou negativas (vermelho).
+
+Clica com o botão direito do rato no retrato de um jogador e seleciona "Create Memory..." para guardar uma memória. Podes escolher um motivo e adicionar um comentário opcional.
+
+Cada memória regista automaticamente informações sobre ambas as personagens, incluindo os seus nomes, raças, classes, níveis, localização e a data e hora do encontro.
+
+Quando voltares a encontrar esse jogador:
+
+- Aparecerá um ícone verde ou vermelho no seu retrato, incluindo nos quadros de grupo e raide.
+- Passa o rato sobre o ícone no retrato para consultares os detalhes da memória numa descrição.
+- O mesmo ícone aparecerá junto às suas mensagens no chat.
+- Clica no ícone do chat para consultares os detalhes da memória guardada.
+
+Todas as memórias são guardadas localmente e destinam-se exclusivamente a uso pessoal.
+
+
+--------------------------------------------------
+
+## FRANÇAIS
+
+PugaMemories est un addon pour World of Warcraft qui permet d'enregistrer des notes personnelles sur d'autres joueurs, en classant les expériences vécues avec eux comme positives (vert) ou négatives (rouge).
+
+Faites un clic droit sur le portrait d'un joueur et sélectionnez « Create Memory... » pour enregistrer un souvenir. Vous pouvez choisir un motif et ajouter un commentaire facultatif.
+
+Chaque souvenir enregistre automatiquement des informations sur les deux personnages, notamment leurs noms, races, classes, niveaux, ainsi que le lieu, la date et l'heure de la rencontre.
+
+Lorsque vous croisez à nouveau ce joueur :
+
+- Une icône verte ou rouge apparaît sur son portrait, y compris dans les cadres de groupe et de raid.
+- Survolez l'icône du portrait avec la souris pour consulter les détails du souvenir dans une infobulle.
+- La même icône apparaît à côté de ses messages dans le chat.
+- Cliquez sur l'icône dans le chat pour consulter les détails du souvenir enregistré.
+
+Tous les souvenirs sont enregistrés localement et sont destinés exclusivement à votre usage personnel.
+
+
+--------------------------------------------------
+
+## DEUTSCH
+
+PugaMemories ist ein Addon für World of Warcraft, mit dem du persönliche Notizen über andere Spieler speichern und deine Erfahrungen mit ihnen als positiv (grün) oder negativ (rot) kennzeichnen kannst.
+
+Klicke mit der rechten Maustaste auf das Porträt eines Spielers und wähle „Create Memory...“, um eine Erinnerung zu speichern. Du kannst einen Grund auswählen und optional einen Kommentar hinzufügen.
+
+Jede Erinnerung speichert automatisch Informationen über beide Charaktere, darunter Namen, Völker, Klassen, Stufen sowie Ort, Datum und Uhrzeit der Begegnung.
+
+Wenn du diesem Spieler erneut begegnest:
+
+- Ein grünes oder rotes Symbol erscheint auf seinem Porträt, auch in Gruppen- und Schlachtzugsfenstern.
+- Bewege den Mauszeiger über das Symbol auf dem Porträt, um die Details der Erinnerung in einem Tooltip anzuzeigen.
+- Dasselbe Symbol erscheint neben seinen Nachrichten im Chat.
+- Klicke auf das Symbol im Chat, um die Details der gespeicherten Erinnerung aufzurufen.
+
+Alle Erinnerungen werden lokal gespeichert und sind ausschließlich für deinen persönlichen Gebrauch bestimmt.
+
+![Tutorial1](doc/PugaMemories-doc1.png)
+![Tutorial2](doc/PugaMemories-doc2.png)
