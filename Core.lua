@@ -64,6 +64,33 @@ function NS:CreateMemory(Target)
     NS:OpenMemoryWindow(Target)
 end
 
+
+--
+-- Delete an existing memory.
+--
+function NS:DeleteMemory(Target)
+    if not PugaMemoriesDB[Target.GUID] then
+        return
+    end
+
+    PL.UI:NewDialogYesNo({
+        Title = AddonName,
+        Message = string.format(
+            NS.L.CONFIRM_DELETE_MEMORY,
+            Target.Name
+        ),
+
+        TextYes = NS.L.YES,
+        TextNo = NS.L.NO,
+
+        OnYes = function()
+            PugaMemoriesDB[Target.GUID] = nil
+            NS.RefreshPortraits()
+        end,
+    })
+end
+
+
 -- TODO: Reuse the window instead of creating a new one
 -- every time OpenMemoryWindow() is called.
 function NS:OpenMemoryWindow(Target)

@@ -1,3 +1,7 @@
+### 1.1.3
+    - Added more channels.
+    - Added "Remove Memory" option.
+
 ### 1.1.2
 	- Updated Interface version.
 

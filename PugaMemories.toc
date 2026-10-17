@@ -1,5 +1,5 @@
 ## Title: PugaMemories
-## Version: 1.1.2
+## Version: 1.1.3
 ## Author: José Puga
 ## X-License: MIT
 # CurseForge: https://www.curseforge.com/wow/addons/pugamemories

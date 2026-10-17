@@ -93,6 +93,8 @@ local ChatEvents = {
     "CHAT_MSG_INSTANCE_CHAT",
     "CHAT_MSG_INSTANCE_CHAT_LEADER",
     "CHAT_MSG_GUILD",
+    "CHAT_MSG_CHANNEL",
+    "CHAT_MSG_OFFICER",
 }
 
 

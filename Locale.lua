@@ -14,7 +14,9 @@ NS.Locale = {
         LEVEL = "level",
         MEMORY_OF = "Memory of: %s",
         CREATE_MEMORY = "Create Memory...",
-        ALREADY_MEMORY = "Player already has a memory.\nOverwrite?.",
+        DELETE_MEMORY = "Delete Memory...",
+        ALREADY_MEMORY = "Player already has a memory.\nOverwrite?",
+        CONFIRM_DELETE_MEMORY = "Delete this player's memory?",
 
         REASONS_BAD = {
             "",
@@ -64,7 +66,9 @@ Comment:
         LEVEL = "nivel",
         MEMORY_OF = "Recuerdo de: %s",
         CREATE_MEMORY = "Crear Recuerdo...",
-        ALREADY_MEMORY = "Jugador ya tiene un recuerdo.\n¿Sobreescribir?.",
+        DELETE_MEMORY = "Borrar Recuerdo...",
+        ALREADY_MEMORY = "Jugador ya tiene un recuerdo.\n¿Sobreescribir?",
+        CONFIRM_DELETE_MEMORY = "¿Borrar recuerdo del jugador?",
 
         REASONS_BAD = {
             "",
@@ -112,7 +116,9 @@ Comentario:
         LEVEL = "nível",
         MEMORY_OF = "Recordação de: %s",
         CREATE_MEMORY = "Criar recordação...",
+        DELETE_MEMORY = "Excluir recordação...",
         ALREADY_MEMORY = "Este jogador já tem uma recordação.\nSubstituir?",
+        CONFIRM_DELETE_MEMORY = "Excluir a memória deste jogador?",
 
         REASONS_BAD = {
             "",
@@ -161,7 +167,9 @@ Comentário:
         LEVEL = "niveau",
         MEMORY_OF = "Souvenir de : %s",
         CREATE_MEMORY = "Créer un souvenir...",
+        DELETE_MEMORY = "Supprimer le souvenir...",
         ALREADY_MEMORY = "Un souvenir existe déjà pour ce joueur.\nLe remplacer ?",
+        CONFIRM_DELETE_MEMORY = "Supprimer le souvenir de ce joueur ?",
 
         REASONS_BAD = {
             "",
@@ -210,7 +218,9 @@ Commentaire :
         LEVEL = "Stufe",
         MEMORY_OF = "Erinnerung an: %s",
         CREATE_MEMORY = "Erinnerung erstellen...",
+        DELETE_MEMORY = "Erinnerung löschen...",
         ALREADY_MEMORY = "Für diesen Spieler gibt es bereits eine Erinnerung.\nÜberschreiben?",
+        CONFIRM_DELETE_MEMORY = "Die Erinnerung an diesen Spieler löschen?",
 
         REASONS_BAD = {
             "",

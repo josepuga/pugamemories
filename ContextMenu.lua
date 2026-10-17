@@ -10,19 +10,26 @@ local function ModifyUnitMenu(
     RootDescription,
     ContextData
 )
+    local Target = PL.Unit:New(ContextData.unit)
+
     RootDescription:CreateDivider()
 
     RootDescription:CreateButton(
         NS.L.CREATE_MEMORY,
         function()
-            local Target =
-                PL.Unit:New(
-                    ContextData.unit
-                )
-
             NS:CreateMemory(Target)
         end
     )
+
+    -- Only show when a memory exists.
+    if PugaMemoriesDB[Target.GUID] then
+        RootDescription:CreateButton(
+            NS.L.DELETE_MEMORY,
+            function()
+                NS:DeleteMemory(Target)
+            end
+        )
+    end
 end
 
 
