@@ -181,8 +181,12 @@ function NS:OpenMemoryWindow(Target)
 
         X = Col + 45,
         Y = RowComboBad,
-        
+
         Width = 110,
+
+        OnChange = function()
+            TypeGroup:SetSelected(1) -- 1st ComboBox
+        end,
     })
 
     --
@@ -207,6 +211,10 @@ function NS:OpenMemoryWindow(Target)
         Y = RowComboGood,
         
         Width = 110,
+
+        OnChange = function()
+            TypeGroup:SetSelected(2) -- 2nd ComboBox
+        end,
     })
 
 

@@ -1,3 +1,7 @@
+### 1.1.4
+    - WoW Forever Release Compatibility
+    - CheckBoxes set selected with ComboBoxes "On Change" event
+
 ### 1.1.3
     - Added more channels.
     - Added "Remove Memory" option.
