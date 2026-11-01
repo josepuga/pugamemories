@@ -35,8 +35,8 @@ function NS.Record.New(
         GUID = Target.GUID,
         TargetName = TargetName,
         TargetServer = Target.Server,
-        TargetRace = Target.Race.Name,
-        TargetClass = Target.Class.Name,
+        TargetRace = Target.Race and Target.Race.Name,
+        TargetClass = Target.Class and Target.Class.Name,
         TargetLevel = Target.Level,
 
         PlayerName = PlayerName,
@@ -74,7 +74,7 @@ function NS.Record.GetLinkText(Record)
     end
 
     Type = "|c" .. Color .. Type -- .. "|r"
-    Reason = Record.Reason .. "|r"
+    local Reason = Record.Reason .. "|r"
 
     TargetName = "|c" .. Color .. TargetName .. "|r"
 
@@ -95,14 +95,14 @@ function NS.Record.GetLinkText(Record)
         date("%d/%m/%y %H:%M", Record.Timestamp),
 
         TargetName,
-        Record.TargetRace,
-        Record.TargetClass,
-        Record.TargetLevel,
+        Record.TargetRace or "?",
+        Record.TargetClass or "?",
+        tostring(Record.TargetLevel or "?"),
 
         PlayerName,
         Record.PlayerRace,
         Record.PlayerClass,
-        Record.PlayerLevel,
+        tostring(Record.PlayerLevel or "?"),
 
         Record.Zone,
         Record.SubZone,
@@ -172,11 +172,11 @@ function NS.Record.GetTooltipLines(Record)
 
         {
             Text =
-                Record.TargetRace ..
+                (Record.TargetRace or "?") ..
                 " - " ..
-                Record.TargetClass ..
+                (Record.TargetClass or "?") ..
                 " (" .. NS.L.LEVEL .. " " ..
-                Record.TargetLevel ..
+                (Record.TargetLevel or "?") ..
                 ")",
         },
 

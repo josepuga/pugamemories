@@ -5,12 +5,13 @@ local PL = PugaLib
 --
 -- Adds PugaMemories options to a unit context menu.
 --
-local function ModifyUnitMenu(
-    Owner,
+local function AddMemoryOptions(
     RootDescription,
-    ContextData
+    Target
 )
-    local Target = PL.Unit:New(ContextData.unit)
+    if not Target or not Target.GUID then
+        return
+    end
 
     RootDescription:CreateDivider()
 
@@ -22,7 +23,7 @@ local function ModifyUnitMenu(
     )
 
     -- Only show when a memory exists.
-    if PugaMemoriesDB[Target.GUID] then
+    if PugaMemoriesDB and PugaMemoriesDB[Target.GUID] then
         RootDescription:CreateButton(
             NS.L.DELETE_MEMORY,
             function()
@@ -30,6 +31,59 @@ local function ModifyUnitMenu(
             end
         )
     end
+end
+
+
+--
+-- Unit context menus.
+--
+local function ModifyUnitMenu(
+    Owner,
+    RootDescription,
+    ContextData
+)
+    if not ContextData or not ContextData.unit then
+        return
+    end
+
+    local Target = PL.Unit:New(ContextData.unit)
+    AddMemoryOptions(RootDescription, Target)
+end
+
+
+--
+-- Chat player context menu.
+--
+local function ModifyChatMenu(
+    Owner,
+    RootDescription,
+    ContextData
+)
+    if not ContextData or not ContextData.lineID then
+        return
+    end
+
+    local GUID = C_ChatInfo.GetChatLineSenderGUID(
+        ContextData.lineID
+    )
+
+    if not GUID then
+        return
+    end
+
+    local Class, _, Race, _, _, Name, Realm =
+        GetPlayerInfoByGUID(GUID)
+
+    local Target = {
+        GUID = GUID,
+        Name = ContextData.name or Name,
+        Server = ContextData.server or Realm,
+        Race = Race and { Name = Race } or nil,
+        Class = Class and { Name = Class } or nil,
+        Level = nil, -- Not available from the chat GUID.
+    }
+
+    AddMemoryOptions(RootDescription, Target)
 end
 
 
@@ -50,3 +104,9 @@ for _, MenuName in ipairs(Menus) do
         ModifyUnitMenu
     )
 end
+
+-- Chat menu has no ContextData.unit.
+Menu.ModifyMenu(
+    "MENU_UNIT_FRIEND",
+    ModifyChatMenu
+)

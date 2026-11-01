@@ -1,3 +1,6 @@
+### 1.2.0
+    - Context Menu now works in the Chat Window
+    
 ### 1.1.4
     - WoW Forever Release Compatibility
     - CheckBoxes set selected with ComboBoxes "On Change" event

@@ -13,10 +13,10 @@ NS.Locale = {
         ME = "Me",
         LEVEL = "level",
         MEMORY_OF = "Memory of: %s",
-        CREATE_MEMORY = "Create Memory...",
         DELETE_MEMORY = "Delete Memory...",
-        ALREADY_MEMORY = "Player already has a memory.\nOverwrite?",
         CONFIRM_DELETE_MEMORY = "Delete this player's memory?",
+        CREATE_MEMORY = "Create Memory...",
+        ALREADY_MEMORY = "Player already has a memory.\nOverwrite?.",
 
         REASONS_BAD = {
             "",
@@ -45,8 +45,8 @@ NS.Locale = {
         LINK_FORMAT = [[
 PugaMemory %s - Reason: %s
 %s
-%s - %s - %s (level %d)
-Me: %s - %s - %s (level %d)
+%s - %s - %s (level %s)
+Me: %s - %s - %s (level %s)
 Location : %s - %s
 Comment:
 %s
@@ -65,10 +65,10 @@ Comment:
         ME = "Yo",
         LEVEL = "nivel",
         MEMORY_OF = "Recuerdo de: %s",
+        DELETE_MEMORY = "Borrar recuerdo...",
+        CONFIRM_DELETE_MEMORY = "¿Borrar el recuerdo de este jugador?",
         CREATE_MEMORY = "Crear Recuerdo...",
-        DELETE_MEMORY = "Borrar Recuerdo...",
-        ALREADY_MEMORY = "Jugador ya tiene un recuerdo.\n¿Sobreescribir?",
-        CONFIRM_DELETE_MEMORY = "¿Borrar recuerdo del jugador?",
+        ALREADY_MEMORY = "Jugador ya tiene un recuerdo.\n¿Sobreescribir?.",
 
         REASONS_BAD = {
             "",
@@ -81,10 +81,10 @@ Comment:
 
         REASONS_GOOD = {
             "",
-            "Buen Grupo",
             "Buen Heal",
             "Buen Tank",
             "Buen DPS",
+            "Buen Grupo",
         },
         GOOD = "Buena",
         BAD = "Mala",
@@ -95,8 +95,8 @@ Comment:
         LINK_FORMAT = [[
 PugaRecuerdo %s - Motivo: %s
 %s
-%s - %s - %s (nivel %d)
-Yo: %s - %s - %s (nivel %d)
+%s - %s - %s (nivel %s)
+Yo: %s - %s - %s (nivel %s)
 Lugar : %s - %s
 Comentario:
 %s
@@ -115,10 +115,10 @@ Comentario:
         ME = "Eu",
         LEVEL = "nível",
         MEMORY_OF = "Recordação de: %s",
-        CREATE_MEMORY = "Criar recordação...",
         DELETE_MEMORY = "Excluir recordação...",
+        CONFIRM_DELETE_MEMORY = "Excluir a recordação deste jogador?",
+        CREATE_MEMORY = "Criar recordação...",
         ALREADY_MEMORY = "Este jogador já tem uma recordação.\nSubstituir?",
-        CONFIRM_DELETE_MEMORY = "Excluir a memória deste jogador?",
 
         REASONS_BAD = {
             "",
@@ -146,8 +146,8 @@ Comentario:
         LINK_FORMAT = [[
 PugaMemória %s - Motivo: %s
 %s
-%s - %s - %s (nível %d)
-Eu: %s - %s - %s (nível %d)
+%s - %s - %s (nível %s)
+Eu: %s - %s - %s (nível %s)
 Localização: %s - %s
 Comentário:
 %s
@@ -166,10 +166,10 @@ Comentário:
         ME = "Moi",
         LEVEL = "niveau",
         MEMORY_OF = "Souvenir de : %s",
-        CREATE_MEMORY = "Créer un souvenir...",
         DELETE_MEMORY = "Supprimer le souvenir...",
-        ALREADY_MEMORY = "Un souvenir existe déjà pour ce joueur.\nLe remplacer ?",
         CONFIRM_DELETE_MEMORY = "Supprimer le souvenir de ce joueur ?",
+        CREATE_MEMORY = "Créer un souvenir...",
+        ALREADY_MEMORY = "Un souvenir existe déjà pour ce joueur.\nLe remplacer ?",
 
         REASONS_BAD = {
             "",
@@ -197,8 +197,8 @@ Comentário:
         LINK_FORMAT = [[
 PugaSouvenir %s - Motif : %s
 %s
-%s - %s - %s (niveau %d)
-Moi : %s - %s - %s (niveau %d)
+%s - %s - %s (niveau %s)
+Moi : %s - %s - %s (niveau %s)
 Lieu : %s - %s
 Commentaire :
 %s
@@ -217,10 +217,10 @@ Commentaire :
         ME = "Ich",
         LEVEL = "Stufe",
         MEMORY_OF = "Erinnerung an: %s",
-        CREATE_MEMORY = "Erinnerung erstellen...",
         DELETE_MEMORY = "Erinnerung löschen...",
-        ALREADY_MEMORY = "Für diesen Spieler gibt es bereits eine Erinnerung.\nÜberschreiben?",
         CONFIRM_DELETE_MEMORY = "Die Erinnerung an diesen Spieler löschen?",
+        CREATE_MEMORY = "Erinnerung erstellen...",
+        ALREADY_MEMORY = "Für diesen Spieler gibt es bereits eine Erinnerung.\nÜberschreiben?",
 
         REASONS_BAD = {
             "",
@@ -248,8 +248,8 @@ Commentaire :
         LINK_FORMAT = [[
 PugaErinnerung %s - Grund: %s
 %s
-%s - %s - %s (Stufe %d)
-Ich: %s - %s - %s (Stufe %d)
+%s - %s - %s (Stufe %s)
+Ich: %s - %s - %s (Stufe %s)
 Ort: %s - %s
 Kommentar:
 %s
